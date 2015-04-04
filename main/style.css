@@ -1,0 +1,237 @@
+
+html {
+	background-color: black;
+}
+
+body {
+    overflow: hidden;
+}
+
+audio {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    visibility: visible;
+}
+
+#vidBgPg {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    min-width: 100%;
+    min-height: 100%; 
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    overflow: hidden;
+}
+
+div {
+    width: 230px;
+    height: 230px;
+    border: 1px solid;
+    border-radius: 50%;
+    /*left: 40%;
+    top: 30%;*/
+    position: absolute;
+}
+
+#white {
+    box-shadow: 10px 10px 240px 0px rgba(255, 255, 255, 0.8),
+    inset 10px 10px 240px 0px rgba(255, 255, 255, 0.8);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+#pink {
+    box-shadow: 10px 10px 240px 0px rgba(130, 199, 197, 0.8),
+    inset 10px 10px 240px 0px rgba(130, 199, 197, 0.8);
+    border-color: rgba(130, 199, 197, 0.4);
+}
+
+#purple {
+    box-shadow: 10px 10px 240px 0px rgba(211, 168, 255, 0.8),
+    inset 10px 10px 240px 0px rgba(211, 168, 255, 0.8);
+    border-color: rgba(211, 168, 255, 0.4)
+}
+
+#yellow {
+    box-shadow: 10px 10px 240px 0px rgba(249, 165, 213, 0.8),
+    inset 10px 10px 240px 0px rgba(249, 165, 213, 0.8);
+    border-color: rgba(249, 165, 213, 0.4);
+}
+
+#green {
+    box-shadow: 10px 10px 240px 0px rgba(199, 255, 190, 0.8),
+    inset 10px 10px 240px 0px rgba(199, 255, 190, 0.8);
+    border-color: rgba(199, 255, 190, 0.4);
+    left: 40%;
+    top: 30%;
+    /*position: relative;*/
+}
+
+#orange {
+    box-shadow: 10px 10px 240px 0px rgba(255, 181, 139, 0.8),
+    inset 10px 10px 240px 0px rgba(255, 181, 139, 0.8);
+    border-color: rgba(255, 181, 139, 0.4);
+}
+
+div > div {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    display: inline-block;
+    margin-right: 30px;
+    /*-webkit-animation: rotate 3s;
+    -webkit-animation-iteration-count: infinite;*/
+}
+
+
+#green div {
+    box-shadow: inset 2px 2px 50px 0px rgba(174, 226, 166, 0.8), 
+    0px 0px 40px 0px rgba(174, 226, 166, 0.6);
+    border-color: rgba(174, 226, 166, 0.4);
+}
+
+#yellow div {
+    box-shadow: inset 2px 2px 50px 0px rgba(255, 119, 189, 0.8), 
+    0px 0px 40px 0px rgba(255, 119, 189, 0.6);
+    border-color: rgba(255, 119, 189, 0.4);
+}
+
+#purple div {
+    box-shadow: inset 2px 2px 50px 0px rgba(211, 168, 255, 0.8), 
+    0px 0px 40px 0px rgba(211, 168, 255, 0.6);
+    border-color: rgba(211, 168, 255, 0.4);
+}
+
+#white div {
+    box-shadow: inset 2px 2px 50px 0px rgba(255, 255, 255, 0.8), 
+    0px 0px 40px 0px rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+#orange div {
+    box-shadow: inset 2px 2px 50px 0px rgba(255, 181, 139, 0.8), 
+    0px 0px 40px 0px rgba(255, 181, 139, 0.6);
+    border-color: rgba(255, 181, 139, 0.4);
+}
+
+#pink div {
+    box-shadow: inset 2px 2px 50px 0px rgba(130, 199, 197, 0.8), 
+    0px 0px 40px 0px rgba(130, 199, 197, 0.6);
+    border-color: rgba(130, 199, 197, 0.4);
+}
+
+.s1 {    
+    left: 33px;
+    top: 13px;
+}
+
+.s1_move {    
+    left: -55px;
+    top: -122px;
+}
+
+.s2 {
+    left: 0px;
+    top: 76px;  
+}
+
+.s2_move {
+    left: -158px;
+    top: 111px;  
+}
+
+.s3 {
+    left: 38px;
+    top: 140px;
+}
+
+.s3_move {
+    left: -33px;
+    top: 300px;
+}
+
+.s4 {
+    left: 114px;
+    top: 135px;
+}
+
+.s4_move {
+    left: 296px;
+    top: 270px;
+}
+
+.s5 {
+    left: 113px;
+    top: 11px;
+}
+
+.s5_move {
+    left: 238px;
+    top: -136px;
+}
+
+.s6 {
+    left: 148px;
+    top: 77px;
+}
+
+.s6_move {
+    left: 384px;
+    top: 63px;
+}
+
+.out {
+    opacity: 0;
+}
+
+/* div {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	box-shadow: inset 10px 10px 240px 0px rgba(255, 255, 255, 0.5),
+				inset 10px 10px 180px 0px rgba(255, 255, 255, 0.7), 
+				inset 20px 20px 100px 0px rgba(200, 255, 255, 0.7);
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	-webkit-animation: move 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	position: relative;
+	transition: all 1s linear;
+}
+
+div:hover {
+	background-color: deeppink;
+} */
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rotate {
+    from {}
+    to {transform: rotate(360deg);}
+}
+
+/* Standard syntax */
+@keyframes rotate {
+    from {}
+    to {transform: rotate(360deg);}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes move {
+    from {top: 0;
+    	left: 0;}
+    to {
+    	top: 350px;
+    	left: 350px;}
+}
+
+/* Standard syntax */
+@keyframes move {
+    from {top: 0;
+    	left: 0;}
+    to {
+    	top: 350px;
+    	left: 350px;}
+}
